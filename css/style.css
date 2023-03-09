@@ -1,8 +1,77 @@
 @charset "UTF-8";
 
-.box {
+.warapper {
+  width: 1100px;
+}
+
+.red-box {
   width: 400px;
   height: 400px;
-  background-color: #ff0000;
-  display: inline-block;
+  background-color: #f00;
+  display: block;
+  margin: auto;
+}
+/* 960px未満になったら */
+@media screen and (max-width: 960px) {
+  .red-box {
+    width: 200px;
+    height: 200px;
+  }
+}
+
+.chenge-color-box {
+  width: 400px;
+  height: 400px;
+  background-color: #f00;
+  display: block;
+  margin: auto;
+}
+
+/* 960px未満になったら青色に変わる */
+@media screen and (max-width: 960px) {
+.chenge-color-box {
+  width: 300px;
+  height: 300px;
+  background-color: #007bff;
+}
+}
+
+.margin-change-box {
+  display: flex;
+  justify-content: center;
+}
+
+.blue-box {
+  width: 400px;
+  height: 400px;
+  background-color: #0008ff;
+  margin-right: 150px;
+}
+
+.green-box {
+  width: 400px;
+  height: 400px;
+  background-color: #2f0;
+}
+
+/* SP */
+@media screen and (max-width: 960px) {
+  .blue-box {
+    margin-right: 50px;
+  }
+}
+
+.float-cancellation {
+  display: block;
+}
+
+.red--box {
+  width: 400px;
+  height: 400px;
+  background-color: #f00;
+  float: left;
+}
+
+.blue-box {
+  float: left;
 }
