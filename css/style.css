@@ -2,6 +2,7 @@
 
 .warapper {
   width: 1100px;
+  margin: auto;
 }
 
 .red-box {
@@ -96,22 +97,46 @@
   text-align: center;
 }
 
+.containerA {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
 .reverse-red-box {
   width: 400px;
   min-height: 400px;
   background-color: #f00;
+  position: relative;
+}
+
+.containerB {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 .reverse-blue-box {
   width: 400px;
   height: 400px;
   background-color: #0008ff;
+  position: relative;
+}
+
+.containerC {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 .reverse-orange-box {
   width: 400px;
   height: 400px;
   background-color: #ff8400;
+  position: relative;
 }
 
 /* SP */
