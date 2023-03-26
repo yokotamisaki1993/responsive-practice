@@ -89,6 +89,11 @@
   }
 }
 
+.before-reverse {
+  display: flex;
+  margin-bottom: 20px;
+}
+
 .reverse-flexbox {
   display: flex;
 }
@@ -215,6 +220,12 @@
 /* SP */
 @media screen and (min-width:960px) {
   .display-blue-box {
+    display: none;
+  }
+}
+
+@media screen and (max-width:960px) {
+  .display-red-box {
     display: none;
   }
 }
